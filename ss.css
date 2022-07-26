@@ -1,0 +1,34 @@
+*{
+margin: 0;
+padding: 0;    
+}
+.bc{
+background-image: url(zz.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+h1{
+color: darkgoldenrod;
+margin-left: 140px;
+margin-top: 30px;
+font-size: 60px;    
+}
+input{
+padding: 20px;
+width: 500px;
+margin-left: 40px;
+background: transparent;
+color: blanchedalmond;
+font-size:40px ;
+font-family: sans-serif;
+}
+button{
+padding: 20px;
+width: 540px; 
+margin-left: 40px;   
+background: transparent;
+color: blanchedalmond;
+font-size: 30px;
+cursor: pointer;
+}

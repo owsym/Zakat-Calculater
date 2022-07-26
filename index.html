@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Zakat Calculator</title>
+<link rel="stylesheet" href="ss.css">
+</head>
+<body class="bc">
+ <script>
+
+function cal(Zakat)
+{
+    var n1 = parseFloat(document.getElementById('n1').value);
+    document.getElementById('result').value = n1*2.5/100; 
+}
+ </script>
+ <div>
+ <h1>Total Amount</h1>
+ <input type="number" id="n1">
+ <h1>Calculate</h1>
+ <button onclick="cal();">Click Hare</button>
+ <h1>your Zakat</h1>
+ <input type="text" id="result">  
+
+ </div>   
+    
+</body>
+</html>
